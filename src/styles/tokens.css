@@ -1,0 +1,95 @@
+:root {
+  color-scheme: light;
+  --color-text: #1e293b;
+  --color-focus: #2563eb;
+  --color-chart-label: #64748b;
+  --color-chart-grid: #dce5f1;
+  --color-chart-track: #f1f5f9;
+  --color-scrollbar-track: #e8edf5;
+  --color-scrollbar-thumb: #94a3b8;
+  --color-scrollbar-thumb-hover: #64748b;
+  --color-severity-critical: #dc2626;
+  --color-severity-high: #f97316;
+  --color-severity-medium: #f59e0b;
+  --color-severity-low: #3b82f6;
+  --color-severity-info: #64748b;
+  --card-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+  --color-text: #e2e8f0;
+  --color-focus: #60a5fa;
+  --color-chart-label: #94a3b8;
+  --color-chart-grid: #202a39;
+  --color-chart-track: #1b2533;
+  --color-scrollbar-track: #0c111a;
+  --color-scrollbar-thumb: #465469;
+  --color-scrollbar-thumb-hover: #65748a;
+  --color-severity-critical: #f87171;
+  --color-severity-high: #fb923c;
+  --color-severity-medium: #fbbf24;
+  --color-severity-low: #60a5fa;
+  --color-severity-info: #94a3b8;
+  --card-shadow: 0 2px 10px rgba(0, 0, 0, 0.24);
+  --color-slate-50: #080b12;
+  --color-slate-100: #0e141e;
+  --color-slate-200: #202b3a;
+  --color-slate-300: #354357;
+  --color-slate-400: #8796aa;
+  --color-slate-500: #9eacbf;
+  --color-slate-600: #bbc6d5;
+  --color-slate-700: #d4dce7;
+  --color-slate-800: #e8edf4;
+  --color-slate-900: #f8fafc;
+  --color-gray-900: #e8edf4;
+  --color-blue-50: #101c2d;
+  --color-blue-100: #1a2b43;
+  --color-blue-200: #2b4566;
+  --color-blue-600: #2563eb;
+  --color-blue-700: #1d4ed8;
+  --color-red-50: #450a0a;
+  --color-red-700: #fca5a5;
+  --color-orange-50: #431407;
+  --color-orange-700: #fdba74;
+  --color-amber-50: #451a03;
+  --color-amber-800: #fcd34d;
+  --color-green-50: #052e16;
+  --color-green-700: #86efac;
+  --color-green-800: #86efac;
+  background-color: #080b12;
+}
+
+html[data-theme='dark'] .bg-slate-900 {
+  background-color: #020617;
+}
+
+html[data-theme='dark'] .bg-white {
+  background-color: #111a26;
+}
+
+html[data-theme='dark'] .hover\:bg-slate-50:hover {
+  background-color: #192536;
+}
+
+html[data-theme='dark'] .bg-slate-900\/35 {
+  background-color: rgb(2 5 10 / 72%);
+}
+
+html[data-theme='dark'] .text-blue-600 {
+  color: #8ab4f8;
+}
+
+html[data-theme='dark'] .text-blue-700 {
+  color: #aecbfa;
+}
+
+html[data-theme='dark'] .focus-visible\:outline-blue-600:focus-visible {
+  outline-color: #8ab4f8;
+}
+
+html[data-theme='dark'] svg[role='group'] circle[tabindex]:focus-visible {
+  outline: none;
+  filter: brightness(1.15);
+  stroke-width: 22px;
+}
